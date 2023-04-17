@@ -1,0 +1,108 @@
+{
+	"info": {
+		"_postman_id": "760e032e-e6be-4a10-be94-9aeb20339a60",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25786679"
+	},
+	"item": [
+		{
+			"name": "my collection gatti",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": [
+				{
+					"name": "CatFacts_1",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://catfact.ninja/fact",
+							"protocol": "https",
+							"host": [
+								"catfact",
+								"ninja"
+							],
+							"path": [
+								"fact"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "nginx"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 17 Apr 2023 15:10:03 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "X-Ratelimit-Limit",
+							"value": "100"
+						},
+						{
+							"key": "X-Ratelimit-Remaining",
+							"value": "97"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "XSRF-TOKEN=eyJpdiI6Im4rcWl2K0RtTmNGWndMdERtdGdUWHc9PSIsInZhbHVlIjoia0NhMytsQkRTOCtMSFFPZEIwK1ltRUdrRGxEbEVYNFB2TGtxSG5BR2Q3Mjd2NUJqcDdWUWdmSGl6S3AvWlk4SkNuaEhhS0FFMThXZm9xRFkwUkFqQ1ErWG12cnRyUVh4TVNJU3RuUUNIMWNpcmxMakdMNlJ1UUhlay9XV3lhcG0iLCJtYWMiOiI3ZGFiMjA3YjY2NTdiNzFlYmM5MGZkODNlOGU1OTE3ZGIxNDJmYzkwZmJhZGU0NzUxM2ViNzFjNzg4NTMwM2JlIiwidGFnIjoiIn0%3D; expires=Mon, 17-Apr-2023 17:10:03 GMT; path=/; samesite=lax"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "catfacts_session=eyJpdiI6ImhybmxoNEMwU0FvZFp0S055aDlzdkE9PSIsInZhbHVlIjoiUit0L21pdVFHSFNxZmlBeEIxS2VUbnZKTjFZMGVJT3hqWVFrOUJlMTJQcUhBMCtxU3RjSFZERnFMY2ZnV3RsVmdLQXF4S2Z0NFdic2luTzNlZVcvTHFpZENvVU9CZkVTbVA0OCs4VlMxdjQ3enpsbEFnaU53cllvVnRtT2tTa3giLCJtYWMiOiI2NTI0ZDI4OTllMzEzYzg0OWJlY2Q2N2ZhYTdiNWQ1Mjk2MTkyMjQwNDE1MWRmZjVjMDE5ZGQxMDU1NzRjMDIxIiwidGFnIjoiIn0%3D; expires=Mon, 17-Apr-2023 17:10:03 GMT; path=/; httponly; samesite=lax"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "1; mode=block"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"fact\": \"Miacis, the primitive ancestor of cats, was a small, tree-living creature of the late Eocene period, some 45 to 50 million years ago.\",\n    \"length\": 133\n}"
+				}
+			]
+		}
+	]
+}
