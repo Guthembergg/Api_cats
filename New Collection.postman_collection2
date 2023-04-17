@@ -101,6 +101,17 @@
 					],
 					"cookie": [],
 					"body": "{\n    \"fact\": \"Miacis, the primitive ancestor of cats, was a small, tree-living creature of the late Eocene period, some 45 to 50 million years ago.\",\n    \"length\": 133\n}"
+				},
+				{
+					"name": "reqres",
+					"originalRequest": {
+						"method": "GET",
+						"header": []
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
 				}
 			]
 		}
